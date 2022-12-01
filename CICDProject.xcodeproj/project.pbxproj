@@ -18,6 +18,9 @@
 		C372E9B429359E6000B0462D /* CICDProjectLoginUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C372E9B329359E6000B0462D /* CICDProjectLoginUITests.swift */; };
 		C372E9BC29359F3200B0462D /* CICDProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C372E9BB29359F3200B0462D /* CICDProjectTests.swift */; };
 		C372E9C32935AB5A00B0462D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C372E9C22935AB5A00B0462D /* LoginViewController.swift */; };
+		C372E9C62936FB2000B0462D /* ValidatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C372E9C52936FB2000B0462D /* ValidatorTests.swift */; };
+		C372E9C82938396300B0462D /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C372E9C72938396300B0462D /* APIService.swift */; };
+		C372E9CA29383BD400B0462D /* APIServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C372E9C929383BD400B0462D /* APIServiceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,9 @@
 		C372E9B929359F3200B0462D /* CICDProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C372E9BB29359F3200B0462D /* CICDProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDProjectTests.swift; sourceTree = "<group>"; };
 		C372E9C22935AB5A00B0462D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		C372E9C52936FB2000B0462D /* ValidatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatorTests.swift; sourceTree = "<group>"; };
+		C372E9C72938396300B0462D /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		C372E9C929383BD400B0462D /* APIServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				C372E99929359C2100B0462D /* Assets.xcassets */,
 				C372E99B29359C2100B0462D /* LaunchScreen.storyboard */,
 				C372E99E29359C2100B0462D /* Info.plist */,
+				C372E9C72938396300B0462D /* APIService.swift */,
 			);
 			path = CICDProject;
 			sourceTree = "<group>";
@@ -129,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				C372E9BB29359F3200B0462D /* CICDProjectTests.swift */,
+				C372E9C52936FB2000B0462D /* ValidatorTests.swift */,
+				C372E9C929383BD400B0462D /* APIServiceTests.swift */,
 			);
 			path = CICDProjectTests;
 			sourceTree = "<group>";
@@ -265,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C372E9C32935AB5A00B0462D /* LoginViewController.swift in Sources */,
+				C372E9C82938396300B0462D /* APIService.swift in Sources */,
 				C372E99529359C2000B0462D /* ViewController.swift in Sources */,
 				C372E99129359C2000B0462D /* AppDelegate.swift in Sources */,
 				C372E99329359C2000B0462D /* SceneDelegate.swift in Sources */,
@@ -285,6 +295,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C372E9CA29383BD400B0462D /* APIServiceTests.swift in Sources */,
+				C372E9C62936FB2000B0462D /* ValidatorTests.swift in Sources */,
 				C372E9BC29359F3200B0462D /* CICDProjectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

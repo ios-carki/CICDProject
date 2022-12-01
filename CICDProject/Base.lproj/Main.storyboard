@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="Nw3-s4-68q">
             <objects>
-                <viewController id="eyh-OF-Wsh" customClass="LoginViewController" customModule="CICDProject" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="eyh-OF-Wsh" customClass="LoginViewController" customModule="CICDProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="M9G-ab-fZp">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -91,7 +91,10 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="checkTextField" destination="d61-wa-2AN" id="jaC-G2-jaV"/>
                         <outlet property="descriptionLabel" destination="jYM-fU-hG9" id="2bU-mt-95x"/>
+                        <outlet property="emailTextField" destination="771-yp-zBI" id="rLf-TL-H8W"/>
+                        <outlet property="passwordTextField" destination="05t-VF-b0P" id="BvG-1H-BSY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HgI-OR-Joa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

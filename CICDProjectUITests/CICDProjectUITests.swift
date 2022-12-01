@@ -21,6 +21,7 @@ final class CICDProjectUITests: XCTestCase {
 
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
+        
     }
 
     func testExample() throws {
@@ -32,6 +33,9 @@ final class CICDProjectUITests: XCTestCase {
         app.textFields["emailTextField"].typeText("carki@carki.com")
         
     }
+    /*
+     code coverage 코드 커버리지, 테스트의 가치
+     */
     
     func testLoginExample() throws {
         let app = XCUIApplication() //앱의 실행과 종료
